@@ -21,8 +21,8 @@
           "rpc": {
             "host": "127.0.0.1",
             "port": 8552,
-            "username": "wcn123456",
-            "password": "wcn123456"
+            "username": "xxxxx",
+            "password": "xxxxx"
           }
         }
       }
