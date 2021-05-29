@@ -1,0 +1,32 @@
+{
+  "bitcoreNode": {
+    "modules": ["./widecoin"],
+    "services": {
+      "api": {
+        "wallets": {
+          "allowCreationBeforeCompleteSync": true
+        }
+      }
+    },
+    "chains": {
+      "WCN": {
+        "mainnet": {
+          "chainSource": "p2p",
+          "trustedPeers": [
+            {
+              "host": "x.x.x.x",
+              "port": 8553
+            }
+          ],
+          "rpc": {
+            "host": "x.x.x.x",
+            "port": 8552,
+            "username": "xxxx",
+            "password": "xxxx"
+          }
+        }
+      }
+    }
+  }
+}
+
