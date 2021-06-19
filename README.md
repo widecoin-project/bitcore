@@ -13,7 +13,7 @@
   
   
   
-**Infrastructure to build Bitcoin and blockchain-based applications for the next generation of financial technology.**
+**Infrastructure to build Widecoin and blockchain-based applications for the next generation of financial technology.**
 
 ## Getting Started
 
@@ -116,10 +116,10 @@ npm install
 
 </details>
 
-### 2. Setup Bitcoin Node
+### 2. Setup Widecoin Node
 
 <details>
-<summary>Example Bitcoin Mainnet Config</summary>
+<summary>Example Widecoin Mainnet Config</summary>
 
 ```sh
 whitelist=127.0.0.1
@@ -132,7 +132,7 @@ upnp=1
 # Make sure port & rpcport matches the
 # bitcore.config.json ports for BTC mainnet
 
-# if using Bitcoin Core v0.17+ prefix
+# if using Widecoin Core v0.17+ prefix
 # [main]
 
 port=20008
@@ -145,14 +145,14 @@ rpcpassword=password
 
 </details>
 
-### 3. Run Bitcoin node
+### 3. Run Widecoin node
 
 <details>
-<summary>Example Starting a Bitcoin Node</summary>
+<summary>Example Starting a Widecoin Node</summary>
 
 ```sh
-# Path to your bitcoin application and path to the config above
-/Applications/Bitcoin-Qt.app/Contents/MacOS/Bitcoin-Qt -datadir=/Users/username/blockchains/bitcoin-core/networks/mainnet/
+# Path to your Widecoin application and path to the config above
+/Applications/Widecoin-Qt.app/Contents/MacOS/Widecoin-Qt -datadir=/Users/username/blockchains/Widecoin-core/networks/mainnet/
 ```
 
 </details>
@@ -165,20 +165,20 @@ npm run node
 
 ## Applications
 
-- [Bitcore Node](packages/bitcore-node) - A full node with extended capabilities using Bitcoin Core
+- [Bitcore Node](packages/bitcore-node) - A full node with extended capabilities using Widecoin Core
 - [Bitcore Wallet](packages/bitcore-wallet) - A command-line based wallet client
 - [Bitcore Wallet Client](packages/bitcore-wallet-client) - A client for the wallet service
 - [Bitcore Wallet Service](packages/bitcore-wallet-service) - A multisig HD service for wallets
-- [Bitpay Wallet](https://github.com/bitpay/copay) - An easy-to-use, multiplatform, multisignature, secure bitcoin wallet
+- [Bitpay Wallet](https://github.com/bitpay/copay) - An easy-to-use, multiplatform, multisignature, secure Widecoin wallet
 - [Insight](packages/insight) - A blockchain explorer web user interface
 
 ## Libraries
 
-- [Bitcore Channel](https://github.com/bitpay/bitcore-channel) - Micropayment channels for rapidly adjusting bitcoin transactions
+- [Bitcore Channel](https://github.com/bitpay/bitcore-channel) - Micropayment channels for rapidly adjusting Widecoin transactions
 - [Bitcore ECIES](https://github.com/bitpay/bitcore-ecies) - Uses ECIES symmetric key negotiation from public keys to encrypt arbitrarily long data streams
-- [Bitcore Lib](packages/bitcore-lib) - A pure and powerful JavaScript Bitcoin library
-- [Bitcore Lib Cash](packages/bitcore-lib-cash) - A pure and powerful JavaScript Bitcoin Cash library
-- [Bitcore Message](https://github.com/bitpay/bitcore-message) - Bitcoin message verification and signing
+- [Bitcore Lib](packages/bitcore-lib) - A pure and powerful JavaScript Widecoin library
+- [Bitcore Lib Cash](packages/bitcore-lib-cash) - A pure and powerful JavaScript Widecoin Cash library
+- [Bitcore Message](https://github.com/bitpay/bitcore-message) - Widecoin message verification and signing
 - [Bitcore Mnemonic](packages/bitcore-mnemonic) - Implements mnemonic code for generating deterministic keys
 - [Bitcore P2P](packages/bitcore-p2p) - The peer-to-peer networking protocol for BTC
 - [Bitcore P2P Cash](packages/bitcore-p2p-cash) - The peer-to-peer networking protocol for BCH
