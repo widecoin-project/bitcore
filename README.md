@@ -161,14 +161,11 @@ npm run node
 
 ## Libraries
 
-- [Widecore Channel](https://github.com/bitpay/Widecore-channel) - Micropayment channels for rapidly adjusting Widecoin transactions
-- [Widecore ECIES](https://github.com/bitpay/Widecore-ecies) - Uses ECIES symmetric key negotiation from public keys to encrypt arbitrarily long data streams
 - [Widecore Lib](packages/Widecore-lib) - A pure and powerful JavaScript Widecoin library
 - [Widecore Lib Cash](packages/Widecore-lib-cash) - A pure and powerful JavaScript Widecoin Cash library
 - [Widecore Message](https://github.com/bitpay/Widecore-message) - Widecoin message verification and signing
 - [Widecore Mnemonic](packages/Widecore-mnemonic) - Implements mnemonic code for generating deterministic keys
-- [Widecore P2P](packages/Widecore-p2p) - The peer-to-peer networking protocol for BTC
-- [Widecore P2P Cash](packages/Widecore-p2p-cash) - The peer-to-peer networking protocol for BCH
+- [Widecore P2P](packages/Widecore-p2p) - The peer-to-peer networking protocol for WCN
 - [Crypto Wallet Core](packages/crypto-wallet-core) - A coin-agnostic wallet library for creating transactions, signing, and address derivation
 
 ## Extras
@@ -178,10 +175,10 @@ npm run node
 
 ## Contributing
 
-See [CONTRIBUTING.md](https://github.com/bitpay/Widecore/blob/master/Contributing.md) on the main Widecore repo for information about how to contribute.
+See [CONTRIBUTING.md](https://github.com/bitpay/bitcore/blob/master/Contributing.md) on the main bitcore repo for information about how to contribute.
 
 ## License
 
-Code released under [the MIT license](https://github.com/bitpay/Widecore/blob/master/LICENSE).
+Code released under [the MIT license](https://github.com/bitpay/bitcore/blob/master/LICENSE).
 
-Copyright 2013-2019 BitPay, Inc. Widecore is a trademark maintained by BitPay, Inc.
+Copyright 2013-2019 BitPay, Inc. Bitcore is a trademark maintained by BitPay, Inc.
