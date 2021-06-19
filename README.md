@@ -1,4 +1,4 @@
-# Bitcore
+# Widecore
 
 
 
