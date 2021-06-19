@@ -1,17 +1,4 @@
 # Widecore
-
-
-
-  <p align="center">
-  <img alt="npm" src="https://img.shields.io/npm/v/bitcore-lib">
-  <img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/m/bitpay/bitcore">
-  <a href="https://opensource.org/licenses/MIT/" target="_blank"><img alt="MIT License" src="https://img.shields.io/badge/License-MIT-blue.svg" style="display: inherit;"/></a>
-  <img alt="GitHub contributors" src="https://img.shields.io/github/contributors/bitpay/bitcore">
-  <br>
- <img src="https://circleci.com/gh/bitpay/bitcore.svg?style=shield" alt="master build">
-</p>
-  
-  
   
 **Infrastructure to build Widecoin and blockchain-based applications for the next generation of financial technology.**
 
@@ -27,22 +14,22 @@
 
 
 ```sh
-git clone git@github.com:bitpay/bitcore.git
+git clone git@github.com:bitpay/Widecore.git
 git checkout master
 npm install
 ```
 
 ## Setup Guide
 
-### 1. Setup Bitcore config
+### 1. Setup Widecore config
 
 <details>
-<summary>Example bitcore.config.json</summary>
+<summary>Example Widecore.config.json</summary>
 <br>
 
 ```json
 {
-  "bitcoreNode": {
+  "WidecoreNode": {
     "chains": {
       "BTC": {
         "mainnet": {
@@ -130,7 +117,7 @@ irc=1
 upnp=1
 
 # Make sure port & rpcport matches the
-# bitcore.config.json ports for BTC mainnet
+# Widecore.config.json ports for BTC mainnet
 
 # if using Widecoin Core v0.17+ prefix
 # [main]
@@ -157,7 +144,7 @@ rpcpassword=password
 
 </details>
 
-### 4. Start Bitcore
+### 4. Start Widecore
 
 ```sh
 npm run node
@@ -165,36 +152,36 @@ npm run node
 
 ## Applications
 
-- [Bitcore Node](packages/bitcore-node) - A full node with extended capabilities using Widecoin Core
-- [Bitcore Wallet](packages/bitcore-wallet) - A command-line based wallet client
-- [Bitcore Wallet Client](packages/bitcore-wallet-client) - A client for the wallet service
-- [Bitcore Wallet Service](packages/bitcore-wallet-service) - A multisig HD service for wallets
+- [Widecore Node](packages/Widecore-node) - A full node with extended capabilities using Widecoin Core
+- [Widecore Wallet](packages/Widecore-wallet) - A command-line based wallet client
+- [Widecore Wallet Client](packages/Widecore-wallet-client) - A client for the wallet service
+- [Widecore Wallet Service](packages/Widecore-wallet-service) - A multisig HD service for wallets
 - [Bitpay Wallet](https://github.com/bitpay/copay) - An easy-to-use, multiplatform, multisignature, secure Widecoin wallet
 - [Insight](packages/insight) - A blockchain explorer web user interface
 
 ## Libraries
 
-- [Bitcore Channel](https://github.com/bitpay/bitcore-channel) - Micropayment channels for rapidly adjusting Widecoin transactions
-- [Bitcore ECIES](https://github.com/bitpay/bitcore-ecies) - Uses ECIES symmetric key negotiation from public keys to encrypt arbitrarily long data streams
-- [Bitcore Lib](packages/bitcore-lib) - A pure and powerful JavaScript Widecoin library
-- [Bitcore Lib Cash](packages/bitcore-lib-cash) - A pure and powerful JavaScript Widecoin Cash library
-- [Bitcore Message](https://github.com/bitpay/bitcore-message) - Widecoin message verification and signing
-- [Bitcore Mnemonic](packages/bitcore-mnemonic) - Implements mnemonic code for generating deterministic keys
-- [Bitcore P2P](packages/bitcore-p2p) - The peer-to-peer networking protocol for BTC
-- [Bitcore P2P Cash](packages/bitcore-p2p-cash) - The peer-to-peer networking protocol for BCH
+- [Widecore Channel](https://github.com/bitpay/Widecore-channel) - Micropayment channels for rapidly adjusting Widecoin transactions
+- [Widecore ECIES](https://github.com/bitpay/Widecore-ecies) - Uses ECIES symmetric key negotiation from public keys to encrypt arbitrarily long data streams
+- [Widecore Lib](packages/Widecore-lib) - A pure and powerful JavaScript Widecoin library
+- [Widecore Lib Cash](packages/Widecore-lib-cash) - A pure and powerful JavaScript Widecoin Cash library
+- [Widecore Message](https://github.com/bitpay/Widecore-message) - Widecoin message verification and signing
+- [Widecore Mnemonic](packages/Widecore-mnemonic) - Implements mnemonic code for generating deterministic keys
+- [Widecore P2P](packages/Widecore-p2p) - The peer-to-peer networking protocol for BTC
+- [Widecore P2P Cash](packages/Widecore-p2p-cash) - The peer-to-peer networking protocol for BCH
 - [Crypto Wallet Core](packages/crypto-wallet-core) - A coin-agnostic wallet library for creating transactions, signing, and address derivation
 
 ## Extras
 
-- [Bitcore Build](packages/bitcore-build) - A helper to add tasks to gulp
-- [Bitcore Client](packages/bitcore-client) - A helper to create a wallet using the bitcore-v8 infrastructure
+- [Widecore Build](packages/Widecore-build) - A helper to add tasks to gulp
+- [Widecore Client](packages/Widecore-client) - A helper to create a wallet using the Widecore-v8 infrastructure
 
 ## Contributing
 
-See [CONTRIBUTING.md](https://github.com/bitpay/bitcore/blob/master/Contributing.md) on the main bitcore repo for information about how to contribute.
+See [CONTRIBUTING.md](https://github.com/bitpay/Widecore/blob/master/Contributing.md) on the main Widecore repo for information about how to contribute.
 
 ## License
 
-Code released under [the MIT license](https://github.com/bitpay/bitcore/blob/master/LICENSE).
+Code released under [the MIT license](https://github.com/bitpay/Widecore/blob/master/LICENSE).
 
-Copyright 2013-2019 BitPay, Inc. Bitcore is a trademark maintained by BitPay, Inc.
+Copyright 2013-2019 BitPay, Inc. Widecore is a trademark maintained by BitPay, Inc.
